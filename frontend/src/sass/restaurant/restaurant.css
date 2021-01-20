@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  color: black;
+}
+
+.container-restaurant {
+  height: 79.4vh;
+}
+.container-restaurant .top {
+  display: flex;
+  height: 30vh;
+  background-image: url("/assets/images/createrestaurant/rest-banner.png");
+}
+
+/*# sourceMappingURL=restaurant.css.map */

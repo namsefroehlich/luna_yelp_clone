@@ -1,0 +1,50 @@
+.restaurant_card_wrapper {
+  height: 365px;
+  width: 271px;
+  margin: 0 15px 15px 15px;
+
+  .upper-upper {
+    display: flex;
+    height: 115px;
+    border-top: 8px solid #E47D31;
+    flex-direction: column;
+
+    p:first-of-type {
+      font-size: 20px;
+      line-height: 23px;
+      padding-left: 13px;
+      margin-top: 5px;
+    }
+    p:last-of-type {
+      font-size: 18px;
+      line-height: 20.7px;
+      padding-left: 13px;
+    }
+
+    .stars {
+      display: flex;
+      margin-top: 20px;
+      padding-left: 16px;
+
+      img {
+        height: 27px;
+        width: 27px;
+      }
+
+      p {
+        align-self: center;
+        margin-left: 70px;
+      }
+    }
+  }
+
+  .lower-card {
+    height: 240px;
+
+    img {
+      object-fit: cover;
+      height: 240px;
+      width: 271px;
+    }
+  }
+}

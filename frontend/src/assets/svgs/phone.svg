@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="26px" viewBox="0 0 18 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resturant-Details" transform="translate(-33.000000, -238.000000)" fill="#4C4C4C" fill-rule="nonzero">
+            <g transform="translate(26.000000, 191.000000)" id="Group">
+                <g>
+                    <g id="phone" transform="translate(7.000000, 47.000000)">
+                        <path d="M3.6,26 L14.4,26 C16.389,26 18,24.545625 18,22.75 L18,3.25 C18,1.454375 16.389,0 14.4,0 L3.6,0 C1.611,0 0,1.454375 0,3.25 L0,22.75 C0,24.545625 1.611,26 3.6,26 Z M1.8,3.25 L16.2,3.25 L16.2,22.75 L1.8,22.75 L1.8,3.25 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

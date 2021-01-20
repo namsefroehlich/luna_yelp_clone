@@ -1,0 +1,85 @@
+.btn-container {
+  margin-top: 50px;
+  display: flex;
+  height: 56px;
+  justify-content: center;;
+  align-self: center;
+  text-align: center;
+
+  #login {
+    width: 200px;
+    outline: none;
+    padding: 5%;
+    border-radius: 28px;
+    background-color: #E47D31;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  #signin {
+    width: 200px;
+    outline: none;
+    padding: 5%;
+    border-radius: 28px;
+    background-color: #E47D31;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  #finish-reg {
+    width: 250px;
+    outline: none;
+    padding: 5%;
+    border-radius: 28px;
+    background-color: #E47D31;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+
+
+}
+
+.btn-container2 {
+  display: flex;
+  height: 56px;
+  justify-content: center;;
+  align-self: center;
+  text-align: center;
+
+  #search {
+
+    width: 200px;
+    outline: none;
+    padding: 5%;
+    border-radius: 28px;
+    background-color: #E47D31;
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+  }
+}
+

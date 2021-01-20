@@ -1,0 +1,88 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  width: 100%;
+}
+body #root {
+  width: 100%;
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 9vh;
+  border-bottom: 1px solid #D8D8D8;
+}
+.header .logo {
+  display: flex;
+  justify-self: flex-start;
+  width: 57%;
+  margin-left: 30px;
+}
+.header .logo #luna-logo {
+  height: 40px;
+}
+.header .home-search-profile {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+.header .home-search-profile p {
+  font-size: 20px;
+}
+.header .signup-login {
+  display: flex;
+  width: 13%;
+  text-align: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.header .signup-login #left {
+  background: #E47D31;
+  border-bottom-left-radius: 28px;
+  border-top-left-radius: 28px;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.header .signup-login #right {
+  background: #E47D31;
+  border-bottom-right-radius: 28px;
+  border-top-right-radius: 28px;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+body #root {
+  width: inherit;
+  height: inherit;
+}
+body main {
+  margin-top: 71px;
+}
+
+/*# sourceMappingURL=header.css.map */

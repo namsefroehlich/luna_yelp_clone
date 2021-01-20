@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #242323;
+    outline: none;
+    color: black;
+}
+
+.container-create-review{
+  display: flex;
+  height: 86vh;
+  flex-direction: column;
+  background-color: #F8F8F8;
+
+  .top{
+    height: 16vh;
+    background-image: url("/assets/images/createrestaurant/banner.png");
+
+    .restaurant-name{
+      margin-top: 3vh;
+      color: white;
+      font-family: Helvetica, sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 2px;
+      margin-left: 13vh;
+      margin-bottom: 0.5vh;
+    }
+    .restaurant-category{
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 2px;
+      color: white;
+      margin-left: 13vh;
+      margin-bottom: 1vh;
+    }
+
+    .stars-restaurant{
+      display: flex;
+      flex-direction: row;
+      margin-left: 12.5vh;
+
+      p{
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 1px;
+        color: white;
+        margin-top: auto;
+        margin-left: 1vh;
+      }
+    }
+
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+
+    .stars-review{
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      img{
+        margin-left: 0.5vw;
+      }
+      p{
+        margin-top: 1vh;
+        margin-left: 1vw;
+        font-family: Helvetica, sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 1px;
+        color: #4C4C4C;
+      }
+    }
+
+    input{
+      margin: auto;
+      height: 20rem;
+      width: 41rem;
+      color: grey;
+      border: 1px solid #EBEBEB;
+      border-radius: 3px;
+    }
+
+    ::placeholder {
+      display: flex;
+      align-self: start;
+      font-family: Helvetica;
+      font-weight: 300;
+      font-size: 20px;
+      color: #979797;
+      opacity: 0.9;
+      text-align: center;
+      padding: 1;
+    }
+
+
+    .save-btn{
+      margin: auto;
+      margin-top: 5vh;
+      width: 200px;
+      outline: none;
+      padding: 1rem;
+      border-radius: 28px;
+      background-color: #E47D31;
+      font-family: Helvetica, sans-serif;
+      font-size: 22px;
+      text-align: center;
+      border: none;
+      color: white;
+      font-weight: normal;
+    }
+}
+
+}

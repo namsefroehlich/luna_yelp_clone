@@ -1,0 +1,24 @@
+.btn-container {
+  margin-top: 50px;
+  display: flex;
+  height: 56px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.btn-container #login {
+  width: 200px;
+  outline: none;
+  padding: 5%;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=button.css.map */

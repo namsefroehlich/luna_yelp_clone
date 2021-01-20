@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #242323;
+    outline: none;
+    color: black;
+}
+
+
+//User Profile container
+.container-user-profile {
+  display: flex;
+  width: 100%;
+  background-color: #F8F8F8;
+  background-image: url("/assets/images/user/skylin-zurich-banner.png");
+  background-repeat: repeat-x;
+  margin-bottom: 14vh;
+  height: auto;
+
+  span{
+  color: grey;
+    font-size: 14px;
+}
+  //Left Column
+  .wrapper-menu-lc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 3%;
+
+    //Profile Picture and username wrapper
+    .wrapper-profile-lc {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      //Profile Picture and Username
+      img {
+        object-fit: contain;
+        max-width: 200px;
+        min-width: 100px;
+      }
+
+      p {
+        font-family: Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #4C4C4C;
+        margin-top: 10%;
+        margin-bottom: 10%;
+      }
+
+    }
+
+    //MENU
+
+    .reviews-menu-lc {
+      cursor: pointer;
+      display: flex;
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+      background: white;
+      width: 100%;
+      max-width: 232px;
+      max-height: 46px;
+      min-height: 46px;
+      min-width: 200px;
+      height: 100vh;
+      padding-bottom: 5%;
+      padding-top: 5%;
+
+      p {
+        margin: auto;
+        margin-left: 1%;
+        padding-left: 5%;
+      }
+
+      img {
+        margin-left: 4%;
+      }
+    }
+
+    .comments-menu-lc {
+      display: flex;
+      border-bottom: 1px solid grey;
+      background: #FFFFFF;
+      height: 100%;
+      width: 100%;
+      max-width: 232px;
+      max-height: 46px;
+      min-height: 46px;
+      min-width: 200px;
+      height: 100vh;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      cursor: pointer;
+      p {
+        margin: auto;
+        margin-left: 1%;
+        padding-left: 5%;
+      }
+
+      img {
+        margin-left: 4%;
+      }
+    }
+
+    .restaurant-menu-lc {
+      display: flex;
+      border-bottom: 1px solid grey;
+      background: #FFFFFF;
+      height: 100%;
+      width: 100%;
+      max-width: 232px;
+      max-height: 46px;
+      min-height: 46px;
+      min-width: 200px;
+      height: 100vh;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      cursor: pointer;
+      p {
+        margin: auto;
+        margin-left: 1%;
+        padding-left: 5%;
+      }
+
+      img {
+        margin-left: 4%;
+      }
+    }
+
+    .edit-profile-menu-lc {
+      display: flex;
+      border-bottom: 1px solid grey;
+      background: #FFFFFF;
+      height: 100%;
+      width: 100%;
+      max-width: 232px;
+      max-height: 46px;
+      min-height: 46px;
+      min-width: 200px;
+      height: 100vh;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      cursor: pointer;
+      p {
+        margin: auto;
+        margin-left: 1%;
+        padding-left: 5%;
+      }
+
+      img {
+        margin-left: 4%;
+      }
+    }
+
+
+  }
+
+  //MENU END LC
+
+  //MIDDLE COLUMN
+  .middle-column {
+    max-width: 550px;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    /*min-height: 775px;*/
+  }
+
+  .username-mc {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 1%;
+    margin-left: 2%;
+  }
+
+  .location-mc {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 2%;
+  }
+
+  .amount-reviews-mc {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 2%;
+  }
+
+  .amount-comments {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 2%;
+  }
+
+  //Show Review
+  .reviews-wrapper-mc {
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+
+    .reviews-title-mc {
+      font-family: Helvetica, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 2%;
+      margin-top: 5%;
+    }
+
+    .single-review-mc {
+      display: flex;
+      flex-direction: column;
+      margin-top: 4%;
+
+
+      .wrapper-review-title-date-mc {
+        display: flex;
+        margin-left: 2%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1%;
+
+        .restaurant-name-mc {
+          font-family: Helvetica, sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 0px;
+        }
+
+        .date-review-mc {
+          font-family: Helvetica, sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 14px;
+          letter-spacing: 0px;
+          text-align: right;
+          margin-right: 3%;
+        }
+      }
+
+      //Review title and date END
+
+      .stars-review-mc {
+        display: flex;
+        margin-left: 2%;
+        margin-bottom: 3%;
+
+        img {
+          max-width: 27px;
+          max-height: 24px;
+        }
+      }
+
+      //end stars div
+
+      //Review Content
+      .review-content-wrapper-mc {
+        display: flex;
+        margin-left: 2%;
+        margin-bottom: 3%;
+
+        p {
+          font-family: Helvetica, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 18px;
+          letter-spacing: 0px;
+          margin-right: 3%;
+        }
+      }
+
+      .hr {
+        hr {
+          width: 90%;
+          margin: auto;
+          color: lightgrey;
+        }
+      }
+
+    }
+  }
+
+  //Show Comments
+  .comments-wrapper-mc{
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    p{
+      font-family: Helvetica, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 2%;
+      margin-top: 5%;
+    }
+    .comments-title-date-wrapper-mc{
+      display: flex;
+      margin-left: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1%;
+
+      .comments-title-mc{
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+      }
+      .comments-date-mc{
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: right;
+        margin-right: 3%;
+      }
+    }
+    .comments-content-wrapper-mc{
+      display: flex;
+      margin-left: 2%;
+      margin-bottom: 3%;
+        p{
+          font-family: Helvetica, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 18px;
+          letter-spacing: 0px;
+          margin-right: 3%;
+        }
+    }
+    .hr {
+      hr {
+        width: 90%;
+        margin: auto;
+        color: lightgrey;
+      }
+    }
+
+  }
+  //Show Restaurant
+ .restaurant-wrapper-mc{
+   display: flex;
+   background: #FFFFFF;
+   flex-direction: column;
+
+   .restaurant-title{
+     font-family: Helvetica, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 2%;
+      margin-top: 5%;
+   }
+    .single-restaurant-mc{
+      display: flex;
+      flex-direction: column;
+      margin-top: 4%;
+      background: #FFFFFF;
+
+    .wrapper-restaurant-title-date-mc {
+      display: flex;
+      margin-left: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 2%;
+
+      .restaurant-name-mc {
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+      }
+      .date-review-mc{
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0px;
+        text-align: right;
+        margin-right: 3%;
+    }
+    }
+    .stars-review-mc {
+      display: flex;
+      margin-left: 2%;
+      margin-bottom: 3%;
+
+      img {
+        max-width: 27px;
+        max-height: 24px;
+        }
+      }
+    .restaurant-content-wrapper-mc{
+      display: flex;
+      margin-left: 2%;
+      margin-bottom: 3%;
+
+        p {
+          font-family: Helvetica, sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 18px;
+          letter-spacing: 0px;
+          margin-right: 3%;
+        }
+    }
+
+    .hr {
+      hr {
+        width: 90%;
+        margin: auto;
+        color: lightgrey;
+      }
+    }
+  }
+ }
+
+  //Edit Profile
+  .edit-profile-wrapper-mc{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+    .edit-profile-title{
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    .input-fields-mc{
+      div{
+        margin-left: 6%;
+
+        .input-title{
+          margin-top: 2%;
+          font-family: Helvetica;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 23px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: grey;
+        }
+        input{
+          margin-top: 1.5%;
+          height: 2rem;
+          width: 22rem;
+          color: grey;
+          border: 1px solid #EBEBEB;
+          box-sizing: border-box;
+          border-radius: 3px;
+          padding-left: 2%;
+        }
+        .error-required-field-mc{
+          font-family: Helvetica, sans-serif;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: red;
+        }
+        .description-input{
+          width: 30rem;
+          height: 5rem;
+        }
+        .things-i-love-input{
+          width: 30rem;
+          height: 2rem;
+        }
+      }
+    }
+    .save-delete-mc{
+      display: flex;
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+      .save-editdprofile-mc{
+        margin: auto;
+        width: 150px;
+        outline: none;
+        padding: 2%;
+        border-radius: 28px;
+        background-color: #E47D31;
+        font-family: Helvetica;
+        font-size: 16px;
+        text-align: center;
+        border: none;
+        color: white;
+        font-weight: normal;
+      }
+      button{
+        cursor: pointer;
+      }
+      .button:after {
+        content: "";
+        background: #90EE90;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+}
+      p{
+        margin: auto;
+        color: red;
+        font-size: 16px;
+      }
+    }
+
+  }
+
+  //Right Column
+  .right-column {
+    margin-top: 10%;
+
+    .title-about-rc {
+      margin-left: 3%;
+      margin-bottom: 3%;
+
+      p {
+        font-family: Helvetica;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+
+      }
+    }
+
+    .location-rc {
+      margin-left: 3%;
+
+      .title-rc {
+        margin-bottom: 1%;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .text {
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 3%;
+      }
+    }
+
+    .member-since-rc {
+      margin-left: 3%;
+
+      .title-rc {
+        margin-bottom: 1%;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .text {
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 3%;
+      }
+    }
+
+    .things-i-love-rc {
+      margin-left: 3%;
+
+      span{
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 4%;
+        color: black;
+        width: 50%;
+      }
+      .title-rc {
+        margin-bottom: 1%;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .text {
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 3%;
+      }
+    }
+
+    .description-rc {
+      margin-left: 3%;
+      margin-top: 3%;
+      .title-rc {
+        margin-bottom: 1%;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      .text {
+        margin-bottom: 3%;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 60%;
+      }
+
+    }
+  }
+}
+
+
+

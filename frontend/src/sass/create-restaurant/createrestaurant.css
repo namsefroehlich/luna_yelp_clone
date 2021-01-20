@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: #242323;
+  outline: none;
+  color: black;
+}
+
+.container-create-restaurant {
+  display: flex;
+  height: 86vh;
+  width: 100vw;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+.container-create-restaurant .wrapper-title {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 100vw;
+}
+.container-create-restaurant .wrapper-title .title {
+  margin-top: 5vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 3.5vh;
+}
+.container-create-restaurant .wrapper-title img {
+  margin-top: 1vh;
+  width: 10%;
+  align-self: center;
+}
+.container-create-restaurant .wrapper-input {
+  height: min-content;
+  display: flex;
+  justify-content: center;
+}
+.container-create-restaurant .wrapper-input .input-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: grey;
+  margin-top: 1vh;
+}
+.container-create-restaurant .wrapper-input .left-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+}
+.container-create-restaurant .wrapper-input .left-column input {
+  margin-top: 1vh;
+  height: 3rem;
+  width: 25rem;
+  color: grey;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-left: 2%;
+  margin-bottom: 3vh;
+}
+.container-create-restaurant .wrapper-input .middle-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-left: 5vh;
+}
+.container-create-restaurant .wrapper-input .middle-column input {
+  margin-top: 1vh;
+  height: 3rem;
+  width: 25rem;
+  color: grey;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-left: 2%;
+  margin-bottom: 3vh;
+}
+.container-create-restaurant .wrapper-input .right-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-left: 5vh;
+}
+.container-create-restaurant .wrapper-input .right-column input {
+  margin-top: 1vh;
+  height: 3rem;
+  width: 25rem;
+  color: grey;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-left: 2%;
+  margin-bottom: 3vh;
+}
+.container-create-restaurant .wrapper-input .right-column .image-button {
+  width: 350px;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+  margin-top: 3%;
+}
+.container-create-restaurant .save-btn-wrapper {
+  display: flex;
+  height: 10vh;
+}
+.container-create-restaurant .save-btn-wrapper .button {
+  margin: auto;
+  width: 200px;
+  outline: none;
+  padding: 1rem;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=createrestaurant.css.map */

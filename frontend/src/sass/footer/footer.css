@@ -1,0 +1,68 @@
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 11.6vh;
+  flex-direction: column;
+  background-color: white;
+}
+footer .upper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-bottom: 1px solid #EBEBEB;
+  align-items: center;
+  height: 7vh;
+  justify-content: space-between;
+}
+footer .upper .left {
+  display: flex;
+}
+footer .upper .left p {
+  font-size: 20px;
+  margin-right: 4vw;
+  padding-left: 2.1vw;
+  color: #646363;
+}
+footer .upper .right {
+  display: flex;
+}
+footer .upper .right img {
+  margin-right: 1.6vw;
+}
+footer .lower {
+  display: flex;
+  width: 100%;
+  height: 4.6vh;
+  align-items: center;
+}
+footer .lower .copyright {
+  display: flex;
+  padding-left: 2.5vw;
+}
+footer .lower .copyright p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #646363;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+body #root {
+  width: inherit;
+  height: inherit;
+}
+body main {
+  margin-top: 71px;
+}
+
+/*# sourceMappingURL=footer.css.map */

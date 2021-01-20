@@ -1,0 +1,159 @@
+body {
+  height: 100%;
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+.login-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+  height: 67vh;
+}
+.login-container ::placeholder {
+  display: flex;
+  align-self: center;
+  padding-left: 23px;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 20px;
+  color: #979797;
+  opacity: 0.9;
+  vertical-align: center;
+  padding: 0;
+}
+.login-container .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-container .wrapper .login {
+  display: flex;
+  margin-bottom: 77px;
+  border-bottom: 3px solid #E47D31;
+  padding: 0 5px 10px 5px;
+}
+.login-container .wrapper .login p {
+  line-height: 28px;
+  font-size: 24px;
+  font-family: Helvetica;
+  color: #4C4C4C;
+  font-weight: bold;
+}
+.login-container .wrapper .inputs {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .wrapper .inputs input {
+  outline: none;
+  color: black;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 340px;
+  height: 52px;
+  font-size: 20px;
+  padding-left: 23px;
+}
+.login-container .wrapper .inputs .username {
+  margin-bottom: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+body #root {
+  width: inherit;
+  height: inherit;
+}
+body main {
+  margin-top: 71px;
+}
+
+.btn-container {
+  margin-top: 50px;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.btn-container #login {
+  width: 200px;
+  outline: none;
+  padding: 5%;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+.btn-container #signin {
+  width: 200px;
+  outline: none;
+  padding: 5%;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+.btn-container #finish-reg {
+  width: 250px;
+  outline: none;
+  padding: 5%;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.btn-container2 {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.btn-container2 #search {
+  width: 200px;
+  outline: none;
+  padding: 5%;
+  border-radius: 28px;
+  background-color: #E47D31;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=login.css.map */

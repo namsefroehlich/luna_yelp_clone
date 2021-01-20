@@ -1,0 +1,86 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  width: 100%;
+
+  #root {
+    width: 100%;
+  }
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 9vh;
+  border-bottom: 1px solid #D8D8D8;
+
+
+
+  .logo {
+    display: flex;
+    justify-self: flex-start;
+    width: 57%;
+    margin-left: 30px;
+
+    #luna-logo {
+      height: 40px;
+    }
+  }
+  .home-search-profile {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+
+    p {
+      font-size: 20px;
+    }
+
+  }
+  .signup-login {
+    display: flex;
+    width: 13%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 20px;
+
+
+
+    #left {
+      background: #E47D31;
+      border-bottom-left-radius: 28px;
+      border-top-left-radius: 28px;
+      width: 100px;
+      height: 40px;
+      outline: none;
+      color: white;
+      border: 1px solid white;
+      cursor: pointer;
+    }
+    #right {
+      background: #E47D31;
+      border-bottom-right-radius: 28px;
+      border-top-right-radius: 28px;
+      width: 100px;
+      height: 40px;
+      outline: none;
+      color: white;
+      border: 1px solid white;
+      cursor: pointer;
+    }
+
+    //#empty-div {
+    //  height: 100%;
+    //  width: 2px;
+    //  color: white;
+    //}
+  }
+}
